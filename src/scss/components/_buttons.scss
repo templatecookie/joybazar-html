@@ -1,0 +1,25 @@
+ul.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    li {
+        a {
+            // background-color: $color;
+            border: 1px solid $white;
+            color: $white;
+            padding: 10px 20px;
+            margin-right: 20px;
+            border-radius: 5px;
+            min-width: 150px;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 600;
+            &.active {
+                background-color: $color;
+                border-color: $color;
+            }
+        }
+    }
+}
