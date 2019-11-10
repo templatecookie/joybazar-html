@@ -1,0 +1,112 @@
+// Sub footer 
+.sub-footer {
+    background-color: #47525E;
+    .logo {
+        a {
+            font-size: 25px;
+            font-weight: bold;
+            color: darken($white, 5);
+            user-select: none;
+            margin-bottom: 10px;
+            &:hover, &:focus, &:active {
+                text-decoration: none;
+            }
+        }
+        p {
+            color: darken($white, 10);
+            font-size: 14px;
+        }        
+    }
+    .footer-menu {
+        display: flex;
+        ul.menu {
+            min-width: 150px;
+            margin-bottom: 0;
+            li {
+                a {
+                    font-size: 16px;
+                    color: darken($white, 10);
+                    margin-bottom: 15px;
+                    &:hover {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+    .newsletter-form {
+        margin-bottom: 25px;
+        h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-weight: normal;
+            color: darken($white, 10);
+        }
+        form {
+            display: flex;
+            input {
+                padding:0 15px;
+                height: 40px;
+                border: 0;
+                border-radius: 5px;
+                width: calc(100% - 200px);
+                box-sizing: border-box;
+                margin-right: 10px;
+            }
+            button {
+                height: 40px;
+                line-height: 40px;
+                padding:0 15px;
+                border-radius: 5px;
+                border: 0;
+                box-sizing: border-box;
+                background-color: $color;
+                color: $white;
+            }
+
+        }
+    }
+    .social-menu {
+        ul {
+            display: flex;
+            align-items: center;
+            li a {
+                font-size: 22px;
+                color: darken($white, 10);
+                margin-right: 20px;
+                @include animate(0.2s);
+                &:hover{
+                    color: $color;
+                }
+            }
+        }
+    }
+}
+
+// Main footer 
+footer {
+    // background-color: #47525E;
+    background-color: rgb(26, 29, 34);
+    padding: 15px;
+    p {
+        font-size: 14px;
+        color: rgba($white, 0.5);
+        @include animate(0.2s);
+        a {
+            color: rgba($color, 0.5);
+            @include animate(0.2s);
+            &:hover{
+                text-decoration: none;
+                color: lighten($color, 15);
+            }
+        }
+    }
+    &:hover{
+        p {
+            color: $white;
+            a {
+                color: $color;
+            }
+        }
+    }
+}
