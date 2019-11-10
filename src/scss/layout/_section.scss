@@ -9,6 +9,9 @@
     }
 }
 
-.new-arrival {
+.section {
     background-color: $white;
+    &-light {
+        background-color: $bgColor;
+    }
 }
