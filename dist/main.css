@@ -8799,6 +8799,38 @@ header .menu {
       -webkit-box-shadow: 0 0 gray;
               box-shadow: 0 0 gray; }
 
+.category {
+  background-color: #F6F8FA;
+  padding: 20px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 180px;
+  margin-bottom: 30px; }
+  .category .icon {
+    width: 100px; }
+  .category .info {
+    padding-top: 20px; }
+    .category .info p {
+      margin-bottom: 0;
+      font-size: 16px;
+      font-weight: 600; }
+
 ul.buttons {
   display: -webkit-box;
   display: -webkit-flex;
