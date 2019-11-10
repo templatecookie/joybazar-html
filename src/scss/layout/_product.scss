@@ -1,0 +1,37 @@
+.product {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: all .3s linear;
+    .info {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+        p {
+            margin-bottom: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            width: 100%;
+            color: $black;
+            transition: all .3s linear;
+        }
+        span {
+            color: $lightBlack;
+        }
+    }
+    &:hover{
+        text-decoration: none;
+        // box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.2);
+        .info {
+            p {
+                color: $color;
+            }
+        }
+    }
+    &.bg-gray {
+        background-color: $bgColor;
+        &:hover{            
+            background-color: darken($bgColor, 3);
+        }
+    }
+}

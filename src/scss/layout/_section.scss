@@ -1,0 +1,14 @@
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+}
+
+.new-arrival {
+    background-color: $white;
+}
