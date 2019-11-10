@@ -1,0 +1,89 @@
+header {
+    .main-header {
+        background-color: $bgColor;
+        &__box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 0;
+            .logo {
+                a {
+                    font-size: 25px;
+                    font-weight: bold;
+                    color: $black;
+                    user-select: none;
+                    &:hover, &:focus, &:active {
+                        text-decoration: none;
+                    }
+                }
+            }
+            .search {
+                border: 1px solid darken($bgColor, 30);
+                position: relative;
+                input {
+                    border: 0;
+                    padding: 7px 20px;
+                    padding-right: 40px;
+                    min-width: 300px;
+                }
+                span {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    padding: 0 15px;
+                    height: 100%;
+                    line-height: 100%;
+                    text-align: center;
+                    background-color: $color;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    @include animate(0.2s);
+                    &:hover {
+                        background-color: darken($color, 5%);
+                    }
+                }
+            }
+            .account {
+                a {
+                    font-size: 22px;
+                    text-align: center;
+                    color: $black;
+                    @include animate(0.3s);
+                    &:last-child{
+                        margin-left: 20px;
+                    }
+                    &:hover {
+                        color: $color;
+                    }
+                }
+            }
+        }
+    }
+    .menu {
+        background-color: $color;
+        &-bar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            li a{
+                padding: 12px; 
+                width: 100%;
+                color: $black;
+                font-size: 16px;
+                font-weight: 600;
+                text-transform: capitalize;
+                &:hover {
+                    color: $white;
+                }
+                &.active {
+                    text-decoration: none;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
