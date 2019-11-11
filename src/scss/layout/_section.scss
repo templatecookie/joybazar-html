@@ -3,10 +3,12 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
-    flex-direction: column;
     h2 {
         font-size: 30px;
         margin-bottom: 0;
+    }
+    &__center{
+        flex-direction: column;
     }
 }
 
