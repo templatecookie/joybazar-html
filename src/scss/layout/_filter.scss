@@ -1,0 +1,28 @@
+.search-filter {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: stretch;
+    input,select,button {
+        width: 100%;
+        padding: 10px 15px;
+        margin-right: 5px;
+        border: 1px solid $bgColor;
+        border-radius: 3px;
+    }
+    input, select {
+        border: 1px solid lighten($lightBlack, 25);
+        &:hover, &:focus {
+            border-color: $color;
+        }
+    }
+    button {
+        background-color: $color;
+        border: 1px solid $color;
+        color: $white;
+        font-weight: 600;
+        @include animate(0.2s);
+        &:hover, &:focus{
+            background-color: darken($color, 10);
+        }
+    }
+}
