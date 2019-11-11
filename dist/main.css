@@ -8699,10 +8699,13 @@ header .menu {
   margin-bottom: 0;
   padding-left: 0;
   margin-top: 20px; }
-  .breadcrumb-bar .breadcrumb-item a {
-    color: #00C99C; }
-  .breadcrumb-bar .breadcrumb-item.active {
-    color: #777; }
+  .breadcrumb-bar .breadcrumb-item {
+    font-size: 14px; }
+    .breadcrumb-bar .breadcrumb-item a {
+      color: #00C99C;
+      font-size: 14px; }
+    .breadcrumb-bar .breadcrumb-item.active {
+      color: #777; }
 
 .banner .slide {
   height: 500px;
@@ -9005,6 +9008,128 @@ header .menu {
     transition: all 0.2s ease-in; }
     .search-filter button:hover, .search-filter button:focus {
       background-color: #009674; }
+
+.product-preview .main-image {
+  max-height: 400px;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden; }
+  .product-preview .main-image img {
+    max-width: 100%;
+    max-height: 100%; }
+
+.product-preview .gallery-images {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .product-preview .gallery-images .image {
+    border-radius: 3px;
+    overflow: hidden;
+    margin-right: 10px; }
+    .product-preview .gallery-images .image img {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -o-object-fit: cover;
+         object-fit: cover;
+      width: 150px;
+      height: 100px; }
+    .product-preview .gallery-images .image:last-child {
+      margin-right: 0; }
+
+.product-preview .product-info .title {
+  font-size: 25px;
+  font-weight: normal;
+  color: #4d4d4d;
+  margin-bottom: 20px; }
+
+.product-preview .product-info .price {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px; }
+
+.product-preview .product-info .attributes .attribute {
+  margin-bottom: 20px; }
+  .product-preview .product-info .attributes .attribute label {
+    width: 100%;
+    margin-bottom: 5px; }
+  .product-preview .product-info .attributes .attribute select {
+    min-width: 200px;
+    padding: 5px 10px;
+    border-radius: 5px; }
+
+.product-preview .product-info .product-category {
+  margin-bottom: 10px;
+  color: #777; }
+  .product-preview .product-info .product-category i {
+    margin-right: 5px; }
+
+.product-preview .product-info .stock-copies {
+  color: #00C99C;
+  margin-bottom: 10px; }
+  .product-preview .product-info .stock-copies i {
+    margin-right: 5px; }
+
+.product-preview .product-info .add-cart {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+
+.product-preview .product-info .delivery-services {
+  background-color: #c9fff3;
+  padding: 20px 15px;
+  border-radius: 5px; }
+
+.product-preview .product-info .service-feature {
+  color: #333;
+  margin-bottom: 10px; }
+  .product-preview .product-info .service-feature:last-child {
+    margin-bottom: 0; }
+  .product-preview .product-info .service-feature i {
+    color: #00C99C;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px; }
+
+.product-preview .product-details {
+  margin-top: 60px; }
+  .product-preview .product-details ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 2px solid #00C99C;
+    margin-bottom: 30px; }
+    .product-preview .product-details ul li a {
+      padding: 10px 30px;
+      font-weight: 600; }
+      .product-preview .product-details ul li a:hover {
+        text-decoration: none;
+        color: #00C99C; }
+      .product-preview .product-details ul li a.active {
+        background-color: #00C99C;
+        color: white; }
+  .product-preview .product-details .specification thead tr th, .product-preview .product-details .specification tbody tr td, .product-preview .product-details .description thead tr th, .product-preview .product-details .description tbody tr td {
+    padding: 5px 10px;
+    border: 1px solid #b4c5d6; }
+  .product-preview .product-details .specification img, .product-preview .product-details .description img {
+    margin-bottom: 20px; }
+  .product-preview .product-details .specification p, .product-preview .product-details .description p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333; }
 
 .sub-footer {
   background-color: #47525E; }
