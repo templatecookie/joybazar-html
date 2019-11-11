@@ -8694,6 +8694,16 @@ header .menu {
         text-decoration: none;
         color: white; }
 
+.breadcrumb-bar .breadcrumb {
+  background-color: white;
+  margin-bottom: 0;
+  padding-left: 0;
+  margin-top: 20px; }
+  .breadcrumb-bar .breadcrumb-item a {
+    color: #00C99C; }
+  .breadcrumb-bar .breadcrumb-item.active {
+    color: #777; }
+
 .banner .slide {
   height: 500px;
   position: relative;
