@@ -37,3 +37,14 @@ a.button {
     text-transform: uppercase;
     font-weight: 600;
 }
+
+.load-more a {
+    margin-top: 10px;
+    border-radius: 0;
+    min-width: 170px;
+    &:hover{
+        text-decoration: none;
+        box-shadow: 0px 0px 0px 10px rgba($color, 0.3);
+    }
+         
+}
