@@ -9131,6 +9131,75 @@ header .menu {
     font-size: 16px;
     color: #333; }
 
+.login-box {
+  max-width: 700px;
+  margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .login-box__left {
+    width: 100%;
+    margin-right: 50px; }
+  .login-box__right {
+    width: 100%;
+    background-color: white;
+    padding: 30px 30px 30px 0; }
+    .login-box__right div.buttons {
+      margin-bottom: 50px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      .login-box__right div.buttons a {
+        padding: 10px 10px;
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: 600;
+        border-bottom: 2px solid #777; }
+        .login-box__right div.buttons a:hover, .login-box__right div.buttons a:focus {
+          text-decoration: none;
+          color: #00C99C;
+          border-color: #00C99C; }
+        .login-box__right div.buttons a.active {
+          color: #00C99C;
+          border-color: #00C99C; }
+    .login-box__right form input {
+      padding: 10px 20px;
+      border: 1px solid #b4c5d6;
+      border-radius: 5px;
+      width: 100%; }
+    .login-box__right form button.action {
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: 1px solid #00C99C;
+      background-color: #00C99C;
+      color: white;
+      font-weight: bold;
+      min-width: 150px;
+      margin-bottom: 30px;
+      width: 100%; }
+    .login-box__right form .other-buttons {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .login-box__right form .other-buttons a {
+        font-size: 14px; }
+        .login-box__right form .other-buttons a:first-child {
+          margin-right: 10px; }
+        .login-box__right form .other-buttons a:hover {
+          color: #00C99C;
+          text-decoration: none; }
+
 .sub-footer {
   background-color: #47525E; }
   .sub-footer .logo a {

@@ -1,0 +1,75 @@
+.login {
+    &-box {
+        max-width: 700px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        &__left {
+            width: 100%;
+            margin-right: 50px;        
+        }
+        &__right {
+            width: 100%;
+            background-color: $white;
+            padding: 30px 30px 30px 0;
+            div.buttons {
+                margin-bottom: 50px;
+                display: flex;
+                a {
+                    padding: 10px 10px;
+                    width: 100%;
+                    // margin-right: 15px;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    // border-radius: 5px;
+                    border-bottom: 2px solid $lightBlack;
+                    // text-align: center;
+                    &:hover, &:focus{
+                        text-decoration: none;
+                        color: $color;
+                        border-color: $color;
+                    }
+                    &.active {
+                        color: $color;
+                        // background-color: $color;
+                        border-color: $color;
+                    }
+                }
+            }
+            form{
+                input {
+                    padding: 10px 20px;
+                    border: 1px solid darken($bgColor, 20);
+                    border-radius: 5px;
+                    width: 100%;
+                }
+                button.action {
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    border: 1px solid $color;
+                    background-color: $color;
+                    color: $white;
+                    font-weight: bold;
+                    min-width: 150px;
+                    margin-bottom: 30px;
+                    width: 100%;
+                    // margin-top: 10px;
+                }
+                .other-buttons {
+                    display: flex;
+                    justify-content: space-between;
+                    a {
+                        font-size: 14px;
+                        &:first-child{
+                            margin-right: 10px;
+                        }
+                        &:hover{
+                            color: $color;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
