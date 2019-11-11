@@ -8956,6 +8956,15 @@ header .menu {
         background-color: rgba(255, 255, 255, 0.25);
         z-index: -1; }
 
+.testimonial {
+  background-color: #F6F8FA; }
+  .testimonial-box .testimonial-quote {
+    background-color: #00C99C; }
+    .testimonial-box .testimonial-quote::after {
+      background-color: rgba(0, 201, 156, 0.6); }
+    .testimonial-box .testimonial-quote::before {
+      background-color: rgba(0, 201, 156, 0.25); }
+
 .sub-footer {
   background-color: #47525E; }
   .sub-footer .logo a {
