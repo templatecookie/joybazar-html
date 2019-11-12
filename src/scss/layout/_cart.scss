@@ -1,0 +1,87 @@
+.cart {
+    .product-list{
+        // border: 1px solid gray;
+        background-color: $bgColor;
+        .head, .body .single-product {
+            display: flex;
+            width: 100%;
+            .block {
+                padding:10px 5px;
+                // border-right: 1px solid gray;
+                // &:last-child{
+                //     border-right: 0;
+                // }
+            }
+            .image {
+                width: 150px;
+            }
+            .title {
+                width: 50%;
+                p{
+                    margin-bottom: 0;
+                }
+                .title {
+                    font-weight: 600;
+                    width: 100%;
+                }
+            }
+            .qty {
+                min-width: 100px;
+            }
+        }
+        .head {
+            border-bottom: 1px solid darken($bgColor, 15);
+            font-weight: bold;
+            .block {
+                padding-top: 0;
+            }
+        }
+        .body {
+            .single-product {
+                border-bottom: 1px solid darken($bgColor, 15);
+                &:last-child{
+                    border-bottom: 0;
+                }
+                input.qty{
+                    width: 70px;
+                    min-width: 70px;
+                }
+            }
+        }
+    }
+    .cart-preview{
+        padding: 20px;
+        border-radius: 5px;
+        background-color: lighten($color, 50);
+        background-color: $white;
+        box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.4);
+        h5 {
+            font-size: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #dddd;
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 0;
+            li {
+                display: flex;
+                justify-content: space-between;
+                padding: 10px 5px;
+                border-bottom: 1px solid #dddd;
+                &.total {
+                    font-weight: 600;
+                    border-bottom: 0;
+                }
+            }
+        }
+        .button.checkout {
+            margin-top: 20px;
+            width: 100%;
+            &:hover{
+                text-decoration: none;
+                background-color: darken($color, 10);
+            }
+        }
+    }
+}
