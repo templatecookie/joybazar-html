@@ -85,3 +85,37 @@
         }
     }
 }
+
+.box {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: $white;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.4);
+    h5{
+        font-size: 20px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #dddd;
+        margin-bottom: 20px;
+    }
+}
+
+.shipping-address {
+    form {
+        label {
+            font-size: 14px;
+            color: $lightBlack;
+        }
+        input, select, textarea{
+            width: 100%;
+            padding: 7px 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            &:hover, &:focus{
+                border-color: $color;
+            }
+            &:focus {
+                box-shadow: 0px 0px 0px 3px lighten($color,50);
+            }
+        }
+    }
+}

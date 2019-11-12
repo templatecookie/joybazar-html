@@ -64,47 +64,52 @@
         <div class="container">
             <div class="row">
                 <div class="col-8">
-                    <div class="product-list">
-                        <div class="head">
-                            <div class="block image"> Image </div>
-                            <div class="block title"> Info </div>
-                            <div class="block qty"> QTY </div>
-                            <div class="block price"> Price </div>
-                        </div>
-                        <div class="body">
-                            <div class="single-product">
-                                <div class="block image"> 
-                                    <img src="src/img/banner.jpg" alt="">
+                    <div class="box shipping-address">
+                        <h5>Shipping Information</h5>
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="">Name</label>
+                                        <input type="text" placeholder="Name" name="name" value="">
+                                    </div>
                                 </div>
-                                <div class="block title"> 
-                                    <p class="title">Product Title Goes Here</p>
-                                    <p>Color: Green</p>
-                                    <p>Size: Small</p>
-                                </div>
-                                <div class="block qty"> 
-                                    <input type="number" name="qty" class="qty">
-                                </div>
-                                <div class="block price"> 
-                                    Price
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="">Phone number</label>
+                                        <input type="text" placeholder="Phone number" name="phone" value="">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="single-product">
-                                <div class="block image"> 
-                                    <img src="src/img/banner.jpg" alt="">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="country">Country</label>
+                                        <select name="country" id="country">
+                                            <option value="">Bangladesh</option>
+                                            <option value="">Canada</option>
+                                            <option value="">Japan</option>
+                                        </select>
+                                    </div>
                                 </div>
-                                <div class="block title"> 
-                                    <p class="title">Product Title Goes Here</p>
-                                    <p>Color: Green</p>
-                                    <p>Size: Small</p>
-                                </div>
-                                <div class="block qty"> 
-                                    <input type="number" name="qty" class="qty">
-                                </div>
-                                <div class="block price"> 
-                                    Price
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="city">City</label>
+                                        <select name="city" id="city">
+                                            <option value="">Dhaka</option>
+                                            <option value="">Chittagong</option>
+                                            <option value="">Cox's Bazar</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="address">Address</label>
+                                    <textarea name="address" id="address" rows="5" placeholder="Your Address"></textarea>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
                 <div class="col-4">
@@ -117,14 +122,7 @@
                             <li><span>Total</span><span>150 Tk.</span></li>
                             <li class="total"><span>Payable Total</span><span>Price</span></li>
                         </ul>
-                        <a href="#" class="button checkout">Checkout Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="box box-white">
-                        
+                        <a href="#" class="button checkout">Place Order</a>
                     </div>
                 </div>
             </div>

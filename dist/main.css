@@ -9279,6 +9279,33 @@ header .menu {
       text-decoration: none;
       background-color: #009674; }
 
+.box {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.4); }
+  .box h5 {
+    font-size: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dddd;
+    margin-bottom: 20px; }
+
+.shipping-address form label {
+  font-size: 14px;
+  color: #777; }
+
+.shipping-address form input, .shipping-address form select, .shipping-address form textarea {
+  width: 100%;
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc; }
+  .shipping-address form input:hover, .shipping-address form input:focus, .shipping-address form select:hover, .shipping-address form select:focus, .shipping-address form textarea:hover, .shipping-address form textarea:focus {
+    border-color: #00C99C; }
+  .shipping-address form input:focus, .shipping-address form select:focus, .shipping-address form textarea:focus {
+    -webkit-box-shadow: 0px 0px 0px 3px #c9fff3;
+            box-shadow: 0px 0px 0px 3px #c9fff3; }
+
 .sub-footer {
   background-color: #47525E; }
   .sub-footer .logo a {
