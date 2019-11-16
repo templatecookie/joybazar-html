@@ -16,7 +16,7 @@
         min-width: 130px;
         font-size: 16px;
     }
-    
+
     .newsletter-form, .footer-menu {
         margin-top: 30px;
     }
@@ -70,5 +70,12 @@
         min-width: 120px;
         font-size: 14px;
         font-weight: 600;
+    }
+
+    .search-filter {
+        flex-wrap: wrap;
+        input, select {
+            margin-bottom: 10px;
+        }
     }
 }

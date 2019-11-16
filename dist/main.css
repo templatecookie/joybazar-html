@@ -9480,7 +9480,13 @@ footer {
     border-radius: 5px;
     min-width: 120px;
     font-size: 14px;
-    font-weight: 600; } }
+    font-weight: 600; }
+  .search-filter {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .search-filter input, .search-filter select {
+      margin-bottom: 10px; } }
 
 ul.buttons {
   display: -webkit-box;
