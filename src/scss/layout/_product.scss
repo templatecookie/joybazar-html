@@ -31,7 +31,7 @@
     }
     &.bg-gray {
         background-color: $bgColor;
-        &:hover{            
+        &:hover{
             background-color: darken($bgColor, 3);
             box-shadow: 0 0 gray;
         }

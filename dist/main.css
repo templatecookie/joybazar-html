@@ -9442,7 +9442,17 @@ footer {
     min-width: 130px;
     font-size: 16px; }
   .newsletter-form, .footer-menu {
-    margin-top: 30px; } }
+    margin-top: 30px; }
+  .login-box {
+    background-color: #F6F8FA;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px 30px;
+    border-radius: 5px; }
+    .login-box__left {
+      display: none; }
+    .login-box__right {
+      padding: 30px 0; } }
 
 @media (max-width: 991px) {
   header .menu-toggle {
