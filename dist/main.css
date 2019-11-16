@@ -9499,6 +9499,8 @@ footer {
     margin-top: 15px;
     margin-bottom: 30px; }
   .product-images {
+    margin-bottom: 30px; }
+  .box.shipping-address {
     margin-bottom: 30px; } }
 
 ul.buttons {
