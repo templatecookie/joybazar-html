@@ -114,4 +114,19 @@
     .box.shipping-address {
         margin-bottom: 30px;
     }
+    .cart .product-list {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:419px){
+    .cart .product-list .head .image, .cart .product-list .body .single-product .image {
+        display: none;
+    }
+    .cart .product-list .head .qty, .cart .product-list .body .single-product .qty {
+        min-width: 80px;
+    }
+    .cart .product-list .head .title, .cart .product-list .body .single-product .title {
+        width: 100%;
+    }
 }
