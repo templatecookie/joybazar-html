@@ -2,6 +2,26 @@
     
 }
 
+@media(max-width:767px) {
+    header .main-header__box .search {
+        display: none;
+    }
+    .banner .slide .overlay h3 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    ul.buttons li a {
+        padding: 8px 15px;
+        margin-right: 15px;
+        min-width: 130px;
+        font-size: 16px;
+    }
+    
+    .newsletter-form, .footer-menu {
+        margin-top: 30px;
+    }
+}
+
 @media(max-width:991px){
     header .menu-toggle {
         display: block;
