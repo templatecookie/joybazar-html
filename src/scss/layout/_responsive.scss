@@ -1,0 +1,54 @@
+@media (max-width:991px) and (min-width: 768px){
+    
+}
+
+@media(max-width:991px){
+    header .menu-toggle {
+        display: block;
+    }
+    .menu-bar {
+        display: none;
+        &.active {
+            display: block;
+            border-top: 1px solid rgba($white, 0.6);
+            ul {
+                flex-direction: column;
+                justify-content: flex-start;
+                // align-items: flex-start;
+                li a{
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+
+    .testimonial-box .testimonial-quote {
+        margin: 0 0px;
+        padding: 30px;
+
+        p {
+            font-size: 16px;
+        }
+
+        .customer-details{
+            h3 {
+                font-size: 20px;
+            } 
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .section-header h2 {
+        font-size: 25px;
+    }
+
+    body a.button {
+        padding: 8px 10px;
+        border-radius: 5px;
+        min-width: 120px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}

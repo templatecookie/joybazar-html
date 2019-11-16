@@ -8665,7 +8665,32 @@ header .main-header {
 
 header .menu {
   background-color: #00C99C; }
-  header .menu-bar {
+  header .menu-toggle {
+    display: none;
+    padding: 10px 0;
+    font-weight: 600;
+    position: relative;
+    font-size: 16px; }
+    header .menu-toggle::after {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f0c9";
+      color: #333;
+      cursor: pointer;
+      padding: 5px 15px;
+      border-radius: 3px;
+      border: 1px solid #333;
+      background-color: white;
+      border-color: white; }
+    header .menu-toggle.active::after {
+      background-color: white;
+      border-color: white; }
+  header .menu-bar ul {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -8681,16 +8706,16 @@ header .menu {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
     margin-bottom: 0; }
-    header .menu-bar li a {
+    header .menu-bar ul li a {
       padding: 12px;
       width: 100%;
       color: #333;
       font-size: 16px;
       font-weight: 600;
       text-transform: capitalize; }
-      header .menu-bar li a:hover {
+      header .menu-bar ul li a:hover {
         color: white; }
-      header .menu-bar li a.active {
+      header .menu-bar ul li a.active {
         text-decoration: none;
         color: white; }
 
@@ -9297,7 +9322,7 @@ header .menu {
 
 .shipping-address form input, .shipping-address form select, .shipping-address form textarea {
   width: 100%;
-  padding: 7px 15px;
+  padding: 10px 15px;
   border-radius: 5px;
   border: 1px solid #ccc; }
   .shipping-address form input:hover, .shipping-address form input:focus, .shipping-address form select:hover, .shipping-address form select:focus, .shipping-address form textarea:hover, .shipping-address form textarea:focus {
@@ -9404,6 +9429,44 @@ footer {
     color: white; }
     footer:hover p a {
       color: #00C99C; }
+
+@media (max-width: 991px) {
+  header .menu-toggle {
+    display: block; }
+  .menu-bar {
+    display: none; }
+    .menu-bar.active {
+      display: block;
+      border-top: 1px solid rgba(255, 255, 255, 0.6); }
+      .menu-bar.active ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+            -ms-flex-pack: start;
+                justify-content: flex-start; }
+        .menu-bar.active ul li a {
+          padding: 10px 0; }
+  .testimonial-box .testimonial-quote {
+    margin: 0 0px;
+    padding: 30px; }
+    .testimonial-box .testimonial-quote p {
+      font-size: 16px; }
+    .testimonial-box .testimonial-quote .customer-details h3 {
+      font-size: 20px; }
+    .testimonial-box .testimonial-quote .customer-details p {
+      font-size: 14px; }
+  .section-header h2 {
+    font-size: 25px; }
+  body a.button {
+    padding: 8px 10px;
+    border-radius: 5px;
+    min-width: 120px;
+    font-size: 14px;
+    font-weight: 600; } }
 
 ul.buttons {
   display: -webkit-box;
