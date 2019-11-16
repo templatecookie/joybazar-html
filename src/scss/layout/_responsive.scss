@@ -60,8 +60,10 @@
         }
     }
 
-    .section-header h2 {
-        font-size: 25px;
+    .breadcrumb-bar {
+        .section-header h2 {
+            font-size: 22px;
+        }
     }
 
     body a.button {
@@ -77,5 +79,24 @@
         input, select {
             margin-bottom: 10px;
         }
+    }
+
+    .product-preview .product-info .title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .product-preview .product-info .price {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .product-preview .product-info .attributes .attribute {
+        margin-bottom: 15px;
+    }
+    .product-preview .product-info .add-cart {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .product-images {
+        margin-bottom: 30px;
     }
 }

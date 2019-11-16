@@ -9473,8 +9473,8 @@ footer {
       font-size: 20px; }
     .testimonial-box .testimonial-quote .customer-details p {
       font-size: 14px; }
-  .section-header h2 {
-    font-size: 25px; }
+  .breadcrumb-bar .section-header h2 {
+    font-size: 22px; }
   body a.button {
     padding: 8px 10px;
     border-radius: 5px;
@@ -9486,7 +9486,20 @@ footer {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap; }
     .search-filter input, .search-filter select {
-      margin-bottom: 10px; } }
+      margin-bottom: 10px; }
+  .product-preview .product-info .title {
+    font-size: 20px;
+    margin-bottom: 15px; }
+  .product-preview .product-info .price {
+    font-size: 22px;
+    margin-bottom: 15px; }
+  .product-preview .product-info .attributes .attribute {
+    margin-bottom: 15px; }
+  .product-preview .product-info .add-cart {
+    margin-top: 15px;
+    margin-bottom: 30px; }
+  .product-images {
+    margin-bottom: 30px; } }
 
 ul.buttons {
   display: -webkit-box;
