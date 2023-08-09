@@ -3,7 +3,7 @@ Templatecookie.com creates quality templates and php scripts. Templatecookie has
 
 # [JoyBazar - eCommerce HTML Template](https://www.templatecookie.com/products)
 
-> Comforty is an eCommerce HTML template. In this template, you found everything that needs for an eCommerce website like add-to-cart, wishlist, order tracking, user dashboard, settings, checkout page, etc.
+> JoyBazar is an eCommerce HTML template. In this template, you found everything that needs for an eCommerce website like add-to-cart, wishlist, order tracking, user dashboard, settings, checkout page, etc.
 
 Check the [Live Demo here](https://joybazar-html.netlify.app/).
 
