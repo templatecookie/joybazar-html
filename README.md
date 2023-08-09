@@ -1,47 +1,35 @@
-# Webpack Boilerplate
-This repository contains Webpack and SCSS boilerplate code to quickly get started on building a webpage following a simplified version of SASS (7-1 pattern).
+# [Templatecookie](https://templatecookie.com)
+Templatecookie.com creates quality templates and php scripts. Templatecookie has many free HTML & Figma templates available for professional use. Templatecookie is famous for its premium PHP Scripts available on [Codeanyon Marketplace](https://codecanyon.net/user/templatecookie). Browse [Templatecookie](https://templatecookie.com) today and discover awesome digital products.
 
+# [Comforty - eCommerce HTML Template](https://www.templatecookie.com/products)
 
-## Project Setup
-### Installing
-Run `npm install` to install all the dependencies this project needs. 
+> Comforty is an eCommerce HTML template. In this template, you found everything that needs for an eCommerce website like add-to-cart, wishlist, order tracking, user dashboard, settings, checkout page, etc.
 
-### Running the app
-Run `npm run dev`. Your browser should automatically open a new tab where you can see your app.
-*Note :* live reload is enabled so just modify your files and it will be reflected on the app instantly.
+Check the [Live Demo here](https://comforty-ecommerce-html.netlify.app/).
 
-### Building the app
-Run `npm run build`. It will automatically add vendor prefixes to CSS rules and compress all your `.scss` files into one `style.css` file located in your `dist` folder.
+![](screenshot.png)
 
+## Pages List
+- Home (Landing Page)
+- Shop (Product Page)
+- Product Details
+- About
+- Account Setting
+- Sign In
+- Sign Up
+- Forget Password
+- Change Password
+- 404
+- Checkout
+- Cart
+- Wishlist
 
-## SASS folder structure
-It contains these folder and files : 
+## Framework & Technologies
+- tailwind
+- jQuery
 
-- `abstracts` : functions, variables
-- `base` : reset, typography,
-- `components` : buttons, form
-- `layout` : footer, header, nav, breadcrumb
-- `pages` : contact, home,
-- `themes` : theme
-- `vendors` : bootstrap, fontawesome
+## Credits
+- Design & Developed by [Templatecookie](https://templatecookie.com)
 
-
-## Included Framework and Libraries
-- `fontawesome` - Font Library
-
-
-## Webpack Dependencies
-- Webpack
-- Babel
-- File Loader
-- CSS Loader
-- Node SASS
-- SASS Loader
-- Post CSS 
-- Autoprefixer
-- Purge CSS
-- Mini CSS Extractor Plugin
-
-
-
-
+## License
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
